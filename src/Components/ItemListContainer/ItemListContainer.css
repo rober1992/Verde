@@ -1,0 +1,62 @@
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.cardsProducts{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.css-o69gx8-MuiCardMedia-root{
+    width: 345px;
+}
+
+
+.count-container__button{
+    width: 30px;
+    height: 30px;
+    background-color: #00a700;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+}
+
+.button-addToCart{
+    background-color: #00a700;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-size: 20px;
+}
+
+.button-buy{
+    background-color: #00a700;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    font-size: 17px;
+    width: 100%;
+}
+
+.count-container__cant{
+    font-size: 20px;
+    align-self: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .cards {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    }
+    .cardsProducts{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+  }
+  

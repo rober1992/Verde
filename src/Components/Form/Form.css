@@ -1,0 +1,61 @@
+.containerForm{
+    background-image: url(../../Img/parque.jpg);
+    background-size: 100%;
+    margin: 0;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.form-temp input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+
+.form-temp textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.form-temp{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.formContact{
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#buttonForm{
+    background: #00a700;
+    color: #fff;
+    padding: 20px;
+}
+
+#buttonForm:hover{
+    cursor: pointer;
+}
+
+@media (max-width:450px){
+    .form-temp{
+        width: 100%;
+    }
+    .containerForm{
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+

@@ -1,0 +1,318 @@
+.woocomerce{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+
+.product-detail__product img{
+    width: 120px;
+}
+
+.row-divided{
+    display: flex;
+    width: 100%;
+}
+
+.product-detai{
+    width: 70%;
+    padding-right: 20px;
+}
+
+.product-total{
+    width: 30%;
+    border-left: 1px solid #ececec;
+    padding-left: 20px;
+}
+
+.product-detail__header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid #ececec;
+    margin-bottom: 15px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.product-total__header{
+    border-bottom: 3px solid #ececec;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.calcule-subtotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #ececec;
+}
+
+.calcule-subtotalPrice{
+    display: flex;
+    align-items: center;
+    padding-bottom: 7px;
+    color: #3d4c5a;
+    font-weight: 600;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.proced-to-checkout{
+    margin: 20px 0;
+}
+
+.sub-total .subtotal{
+    padding-bottom: 7px;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.sub-total .total{
+    padding-bottom: 7px;
+    text-align: left;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.discount{
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #ececec;
+}
+
+.discount p{
+    font-size: 17px;
+    padding-left: 20px;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.inputText{
+    height: 25px;
+    margin: 15px 0;
+    border: 1px solid #ddd;
+}
+
+.sendCoupon{
+    height: 31px;
+    font-size: 17px;
+    color: #666;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+}
+
+.menuCoupon{
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-empty-p{
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-size: 20px;
+}
+.cart-empty-p a{
+    text-decoration: underline;
+}
+
+button.btn-delete{
+    background: none;
+    border: none;
+    color: #00a700;
+    padding-top: 8px;
+}
+
+button.btn-delete *{
+    font-size: 30px;
+}
+
+.row-divided .product-detail__header h4:nth-of-type(1) {
+    width: 30%;
+}
+
+.row-divided .product-detail__header h4:nth-of-type(2) {
+    width: 20%;
+}
+
+.row-divided .product-detail__header h4:nth-of-type(3) {
+    width: 20%;
+}
+
+.row-divided .product-detail__header h4:nth-of-type(4) {
+    width: 20%;
+}
+
+.product-detail__content{
+    display: flex;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ececec;
+    padding-bottom: 10px;
+}
+
+.product-detail__content p{
+    color: #3d4c5a;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+.priceText{
+    color: #111;
+    font-weight: 600;
+}
+
+.product-detail__product{
+    display: flex;
+    width: 30%;
+    text-align: left;
+}
+
+.product-detail__price{
+    width: 20%;
+}
+
+.product-detail__quantity{
+    width: 20%;
+}
+
+.product-detail__subtotal{
+    width: 20%;
+    padding-top: 14px;
+}
+
+.name-product{
+    margin-left: 20px;
+}
+
+.form-temp-checkout{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.form-temp-checkout input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+}
+
+#buttonForm-checkout{
+    background: #00a700;
+    color: #fff;
+    padding: 20px;
+    width: 100%;
+    border: none;
+}
+
+#buttonForm-checkout:hover{
+    cursor: pointer;
+}
+
+.checkout{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+}
+
+#buttonCheckout{
+    border: 0;
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #7066e0;
+    color: #fff;
+    font-size: 1em;
+    padding: .625em 1.1em;
+    cursor: pointer;
+}
+
+#buttonCheckout2{
+    border: 0;
+    border-radius: 0.25em;
+    background: initial;
+    background-color: #7066e0;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.IconCheckout{
+    background: none;
+    border: none;
+    color: #00a700;
+    padding: 0;
+    margin: 0;
+}
+
+.checkout .css-i4bv87-MuiSvgIcon-root{
+    font-size: 60px !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .row-divided{
+        display: block;
+        width: 100%;
+    }
+    .row-divided .product-detail__header h4:nth-of-type(1){
+        width: 33%;
+    }
+    .row-divided .product-detail__header h4:nth-of-type(2){
+        width: 28%;
+    }
+    .row-divided .product-detail__header h4:nth-of-type(3){
+        width: 28%;
+    }
+    .row-divided .product-detail__header h4:nth-of-type(4){
+        display: none;
+    }
+    .product-detai{
+        width: 100%;
+    }
+    .product-detail__product img{
+        width: 110px;
+    }
+    .product-detail__subtotal{
+        display: none;
+    }
+    .name-product{
+        margin-left: 0;
+    }
+    .product-detail__product{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .product-detail__content p{
+        text-align: center;
+        margin-bottom: 7px;
+        margin-top: 0;
+    }
+    .product-detail__price{
+        width: 28%;
+    }
+    .product-detail__quantity{
+        width: 28%;
+    }
+    .name-product{
+        border-bottom: 2px solid #ececec;
+    }
+    button.btn-delete{
+        padding: 0px;
+    }
+    .product-total{
+        width: 100%;
+        padding-left: 0;
+        border-left: none;
+    }
+    .cart-table__content-price{
+        width: 15%;
+    }
+    
+}
+
+@media (max-width:450px){
+    .form-temp-checkout{
+        width: 100%;
+    }
+}
+

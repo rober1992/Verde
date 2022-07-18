@@ -1,0 +1,21 @@
+.icono-verde{
+    width: 80px;
+}
+
+.css-2s90m6-MuiAvatar-root{
+    margin-left: 20px;
+}
+
+a:-webkit-any-link{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 450px) {
+    .css-2s90m6-MuiAvatar-root{
+        margin-left: 15px;
+    }
+    .css-1t5bz04-MuiTypography-root{
+        justify-content: center;
+    }
+}
